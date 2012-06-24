@@ -1,0 +1,193 @@
+/*
+ * File: Main.css
+ * Description: Contains Resets and default formating
+ * Guidelines: Add whats needed
+ *
+ * TABLE OF CONTENTS
+ * -------------------------
+ * 1.  Reset
+ * 2.  Base
+ * 3.  Default
+ * 4.  Header
+ * 5.  PanelOne
+ * 6.  Tabs
+ * 7.  Dialog Boxes
+ * 8.  Pagination
+ * 9.  Buttons
+ * 10. Tables
+ * 11. Columns
+ * 12. Forms
+ * 13. Layout
+ * 14. Misc
+ *
+ * Color Palette 
+ * -------------------------
+ *
+ * Coded by Duane Blake
+ */
+
+/*--------------------------------------------------------------------
+	1. Reset
+--------------------------------------------------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal; font-size:14px;}
+ol,ul {list-style:none; margin:5px 0; list-style-position:inside;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:bold; margin:5px 0;}
+q:before,q:after{content:'';}
+input::-moz-focus-inner, button::-moz-focus-inner { border: 0; padding: 0; }
+			button::-moz-focus-inner /*Remove button padding in FF*/ { border: 0; padding: 0; }
+			
+/*--------------------------------------------------------------------
+	2. Base
+--------------------------------------------------------------------*/
+b, strong,th{font-weight:bold;}
+abbr,acronym {border:0;}
+i, em{font-style:italic;}
+p{padding:0 0 3px 0;font-size:14px;}
+ul{list-style:disc inside none;}
+ol{list-style:decimal inside none;}
+li{font-size:14px; padding:0 0 3px 10px; font-size:14px;}
+
+td,th{padding:2px; font-size:14px;}
+label{display: block; font-size: 14px;}
+
+
+body {	font-family: Arial, Helvetica, sans-serif; font-size:62.5%; color:#585858; background:#f4f4f4;}
+a,
+a:link,
+a:visited{color:#00aeef; background:transparent; text-decoration:none;}
+a:hover,
+a:active{color:#00aeef; background:transparent; text-decoration:underline;}
+
+h1{font-size:26px;}
+h2{font-size:20px;}
+h3{font-size:16px;}
+h4{font-size:14px;}
+
+strong, b {font-weight: bold}
+em, i {font-style: italic;}
+strike{text-decoration: line-through;}
+
+.alignCenter{text-align:center;}
+.alignLeft{text-align:left;}
+.alignRight{text-align:right;}
+
+.fullHdr1{font-size: 14px; color:#fff; font-weight: bold; text-transform: uppercase;}
+.fullHdr2{font-size: 32px; color: #585858; font-weight: bold;}
+.fullHdr3{font-size: 26px; color: #1d90bf; font-weight: bold;}
+
+.links1 a,
+.links1 a:link,
+.links1 a:visited {color:#585858; background:transparent; text-decoration:none;}
+.links1 a:hover,
+.links1 a:active {color:#585858; background:transparent; text-decoration:underline;}
+
+.tableFormat1{ width: 90%;margin-bottom: 10px;}
+    .tableFormat1 th{font-weight: bold;}
+    .tableFormat1 td, th{border: 1px solid #dbdbdb;  padding: 3px;}
+
+/*--------------------------------------------------------------------
+	3. Defaults
+--------------------------------------------------------------------*/
+
+.height0 {height:0;}
+.height5 {height:5px;}
+
+.width10 {width:10%;}
+.width20 {width:20%;}
+.width25 {width:25%;}
+.width30 {width:30%;}
+.width40 {width:40%;}
+.width50 {width:50%;}
+.width60 {width:60%;}
+.width70 {width:70%;}
+.width75 {width:75%;}
+.width80 {width:80%;}
+.width90 {width:90%;}
+.width100 {width:100%;}
+
+.text10 {font-size:1em;}
+.text11 {font-size:1.1em;}
+.text12 {font-size:1.2em;}
+.text13 {font-size:1.3em;}
+.text14 {font-size:1.4em;}
+
+.ml0 {margin-left:0px;}
+.ml5 {margin-left:5px;}
+.ml10 {margin-left:10px;}
+.ml15 {margin-left:15px;}
+.ml20 {margin-left:20px;}
+.ml25 {margin-left:25px;}
+.ml30 {margin-left:30px;}
+
+.mt0 {margin-top:0px;}
+.mt5 {margin-top:5px;}
+.mt10 {margin-top:10px;}
+.mt15 {margin-top:15px;}
+.mt20 {margin-top:20px;}
+.mt25 {margin-top:25px;}
+.mt30 {margin-top:30px;}
+
+.mr0 {margin-right:0px;}
+.mr5 {margin-right:5px;}
+.mr10 {margin-right:10px;}
+.mr15 {margin-right:15px;}
+.mr20 {margin-right:20px;}
+.mr25 {margin-right:25px;}
+.mr30 {margin-right:30px;}
+
+.mb0 {margin-bottom:0px;}
+.mb5 {margin-bottom:5px;}
+.mb10 {margin-bottom:10px;}
+.mb15 {margin-bottom:15px;}
+.mb20 {margin-bottom:20px;}
+.mb25 {margin-bottom:25px;}
+.mb30 {margin-bottom:30px;}
+.mb50 {margin-bottom:50px;}
+
+.ma0{margin:0;}
+.ma5{margin:5px;}
+.ma10{margin:10px;}
+.ma15{margin:15px;}
+.ma20{margin:20px;}
+
+.pl0 {padding-left:0px;}
+.pl5 {padding-left:5px;}
+.pl10 {padding-left:10px;}
+.pl15 {padding-left:15px;}
+.pl20 {padding-left:20px;}
+
+.pt0{padding-top:0px;}
+.pt5 {padding-top:5px;}
+.pt10 {padding-top:10px;}
+.pt15 {padding-top:15px;}
+.pt20 {padding-top:20px;}
+.pt30 {padding-top:30px;}
+
+.pr0 {padding-right:0px;}
+.pr5 {padding-right:5px;}
+.pr10 {padding-right:10px;}
+.pr15 {padding-right:15px;}
+.pr20 {padding-right:20px;}
+
+.pb0 {padding-bottom:0px;}
+.pb5 {padding-bottom:5px;}
+.pb10 {padding-bottom:10px;}
+.pb15 {padding-bottom:15px;}
+.pb20 {padding-bottom:20px;}
+
+.pa0{padding:0;}
+.pa5{padding:5px;}
+.pa10{padding:10px;}
+.pa15{padding:15px;}
+.pa20{padding:20px;}
+
+.resetAll {line-height:0px; margin:0; padding:0; height:0; font-size:0;}
+
+.noBorder{border:0;}
+
+.positionRelative{position:relative;}
+.positionAbsolute{position:absolute;}
