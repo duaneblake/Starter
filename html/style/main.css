@@ -38,7 +38,7 @@ caption,th {text-align:left;}
 h1,h2,h3,h4,h5,h6{font-weight:bold; margin:5px 0;}
 q:before,q:after{content:'';}
 input::-moz-focus-inner, button::-moz-focus-inner { border: 0; padding: 0; }
-			button::-moz-focus-inner /*Remove button padding in FF*/ { border: 0; padding: 0; }
+button::-moz-focus-inner /*Remove button padding in FF*/ { border: 0; padding: 0; }
 			
 /*--------------------------------------------------------------------
 	2. Base
@@ -49,11 +49,9 @@ i, em{font-style:italic;}
 p{padding:0 0 3px 0;font-size:14px;}
 ul{list-style:disc inside none;}
 ol{list-style:decimal inside none;}
-li{font-size:14px; padding:0 0 3px 10px; font-size:14px;}
 
 td,th{padding:2px; font-size:14px;}
 label{display: block; font-size: 14px;}
-
 
 body {	font-family: Arial, Helvetica, sans-serif; font-size:62.5%; color:#585858; background:#f4f4f4;}
 a,
